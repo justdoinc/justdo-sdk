@@ -11,7 +11,7 @@ With the JustDo SDK you can:
 ## Quick Start
 
 ```bash
-curl https://raw.githubusercontent.com/justdoinc/justdo-sdk/master/install.bash | bash
+bash <(curl https://raw.githubusercontent.com/justdoinc/justdo-sdk/master/install.bash)
 ```
 
 ## Installation environmnet pre requirements
