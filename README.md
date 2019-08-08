@@ -32,7 +32,16 @@ Windows isn't supported at the moment.
 
 ## Uninstalling JustDo
 
+To uninstall JustDo call the following command:
+
 ```bash
-justdo uninstall all # Will remove all the Docker containers installed by the JustDo SDK
-sudo rm /usr/local/bin/justdo # Will remove our short launcher shell script
+justdo uninstall
 ```
+
+It will:
+
+* Remove the `$ justdo` command
+* Remove the `~/.justdo` file from your home folder
+* Will stop and remove all the JustDo SDK's Docker containers installed by the JustDo SDK
+* To avoid accidental data loss, it won't remove your global data folder from /var/justdo
+(or /private/var/justdo/) .
