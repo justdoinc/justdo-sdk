@@ -17,6 +17,8 @@ bash <(curl https://raw.githubusercontent.com/justdoinc/justdo-sdk/master/instal
 The install script will create in the folder in which you called the command a folder named justdo
 that contains all the components of the JustDo SDK.
 
+Call the `$ justdo` command to control and perform operation on the newly installed JustDo SDK.
+
 ## Installation environmnet pre requirements
 
 ### Linux
