@@ -11,7 +11,7 @@ With the JustDo SDK you can:
 ## Quick Start
 
 ```bash
-bash <(curl https://raw.githubusercontent.com/justdoinc/justdo-sdk/master/install.bash)
+bash <(curl https://justdo.com/sdk.bash)
 ```
 
 The install script will create in the folder in which you called the command a folder named justdo
