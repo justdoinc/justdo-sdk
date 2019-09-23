@@ -932,7 +932,7 @@ fi
 if ! cat /etc/hosts | grep "local.justdo.com" &> /dev/null; then
     announceStep "/etc/hosts isn't configured with the SDK domains, adding the SDK domains to /etc/hosts . Root permission required"
 
-    etc_hosts_line="127.0.0.1 local.justdo.com app-local.justdo.com local-beta.justdo.com app-local-beta.justdo.com"
+    etc_hosts_line="127.0.0.1 local.justdo.com app-local.justdo.com"
     echo "$etc_hosts_line" | sudo tee -a /etc/hosts &> /dev/null
 
     announceStep "The following line added to your /etc/hosts file"
@@ -1002,5 +1002,4 @@ popd
 
 announceMainStep "JustDo installation completed and available under the folder: $output_folder"
 
-announceStep "Official stable release: http://local.justdo.com"
-announceStep "Plugins development environment: http://local-beta.justdo.com"
+announceStep "JustDo is available on: http://local.justdo.com"
